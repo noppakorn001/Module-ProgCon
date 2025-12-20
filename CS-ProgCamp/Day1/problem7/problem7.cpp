@@ -5,23 +5,23 @@ using namespace std;
 
 int main(){
     float score;
-    cout << "Enter score: " << endl;
+    //cout << "Enter score: " << endl;
     cin >> score;
 
     if (score>=80){
-        cout << "A" << endl;
+        cout << "Grade A" << endl;
     }
     else if (score>=70 && score<80){
-        cout << "B" << endl;
+        cout << "Grade B" << endl;
     }
     else if (score>=60 && score<70){
-        cout << "C" << endl;
+        cout << "Grade C" << endl;
     }
     else if (score>=50 && score<60){
-        cout << "D" << endl;
+        cout << "Grade D" << endl;
     }
     else {
-        cout << "F" << endl;
+        cout << "Grade F" << endl;
     }
     return 0;
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     int num;
-    cout << "Enter number: " << endl;
+    //cout << "Enter number: " << endl;
     cin >> num;
     if (num % 2 == 0){
         cout << "Even" << endl;

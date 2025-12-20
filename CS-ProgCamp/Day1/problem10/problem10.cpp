@@ -5,10 +5,10 @@ using namespace std;
 
 int main(){
     float temperature;
-    cout << "Enter temperature: " ;
+    //cout << "Enter temperature: " ;
     cin >> temperature;
     if (temperature > 37.5){
-        cout << "Have a fever" << endl;
+        cout << "Fever" << endl;
     }
     else {
         cout << "Normal" << endl;
