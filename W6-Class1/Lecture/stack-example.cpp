@@ -1,0 +1,25 @@
+//https://www.programiz.com/cpp-programming/stack
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main() {
+    // create a stack of strings
+    stack<string> languages;
+    
+    // add element to the Stack
+    languages.push("C++");
+    languages.push("Java");
+    languages.push("Python");
+    
+    // print top element
+    cout << languages.top();
+
+    /*
+    python -> top
+    java
+    c++
+    */
+
+    return 0;
+}
